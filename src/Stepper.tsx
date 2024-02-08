@@ -139,7 +139,10 @@ const Stepper: FC<StepperProps> = ({
           })}
         </span>
         <div
-          style={{ backgroundColor: stepperContentWrapperBackgroundColor }}
+          style={{
+            backgroundColor: stepperContentWrapperBackgroundColor,
+            display: steps.length === 0 ? "none" : "block",
+          }}
           className="stepper-content-wrapper"
         >
           <div
