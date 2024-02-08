@@ -4,10 +4,10 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
-  "homepage": "",
+  "homepage": "https://github.com/NishantArgade/stepper-react.git",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/NishantArgade/stepper-react.git"
   },
   "author": "Nishant Argade",
   "license": "MIT",
