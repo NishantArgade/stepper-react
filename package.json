@@ -1,6 +1,6 @@
 {
   "name": "stepper-react",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
