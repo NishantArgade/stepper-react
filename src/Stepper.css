@@ -44,7 +44,7 @@
   height: 0.65rem;
   background-color: rgb(205, 205, 205);
   border-radius: 100%;
-  z-index: 10;
+  z-index: 1;
   cursor: pointer;
 }
 
