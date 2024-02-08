@@ -16,6 +16,7 @@
   width: fit-content;
   height: fit-content;
   background-color: white;
+  align-items: center;
 }
 
 .step {
@@ -135,6 +136,11 @@
   width: 100%;
 }
 
+.step,
+.stepper-conent-wrapper {
+  transition: all 2s ease;
+}
+
 @media only screen and (max-width: 768px) {
   .step-container {
     display: flex;
@@ -207,7 +213,9 @@
     display: flex;
     flex-direction: row !important;
     width: 100% !important;
-    height: 100%;
+    /* height: 100%; */
+    justify-content: start;
+    align-items: start;
   }
   .stepper-content-wrapper {
     padding-top: 1.6rem;

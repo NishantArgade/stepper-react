@@ -96,7 +96,7 @@ const Stepper: FC<StepperProps> = ({
                   !(index + 1 === steps.length) &&
                   "current"
                 }
-              ${index + 1 === steps.length && "last"}
+              ${index + 1 <= activeStep && index + 1 === steps.length && "last"}
               ${index + 1 === activeContent && "active-content"}
               `}
               >
@@ -152,7 +152,7 @@ const Stepper: FC<StepperProps> = ({
             }}
             className="content"
           >
-            {steps[activeContent - 1].content}
+            {steps[activeContent - 1]?.content}
           </div>
         </div>
       </div>

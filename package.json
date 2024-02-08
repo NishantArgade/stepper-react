@@ -33,5 +33,31 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "^5.3.3"
-  }
+  },
+  "keywords": [
+    "react",
+    "component",
+    "stepper",
+    "form",
+    "step",
+    "wizard",
+    "ecommerce-stepper",
+    "react-component",
+    "ecommerce",
+    "flipkart-inspired",
+    "amazon-inspired",
+    "checkout-flow",
+    "progress-indicator",
+    "react-component",
+    "ecommerce-stepper",
+    "shopping-cart",
+    "user-flow",
+    "navigation",
+    "payment-stepper",
+    "react-stepper",
+    "substepperform",
+    "stepperform",
+    "substepper",
+    "payment-tracking-stepper"
+  ]
 }
