@@ -33,7 +33,7 @@ npm install stepper-react
 Here's a basic example of how to use Stepper-React:
 
 ```bash
-import Stepper from 'stepper-react';
+import {Stepper} from 'stepper-react';
 
 const steps = [
   {topLabel: 'Step 1', bottomLabel: 'Start', content: 'This is the first step.'},
